@@ -1,0 +1,73 @@
+    body {
+      background-color: #f0f0f0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .logo {
+      height: 90px;
+    }
+
+    .home-icon {
+      font-size: 30px;
+      color: #e50099;
+    }
+
+    .login-box {
+      background-color: #ddd;
+      padding: 40px;
+      border-radius: 40px;
+      max-width: 700px;
+      margin: 80px auto;
+    }
+    .login-box h4{
+        color:#b8007a;
+    }
+
+    .form-control {
+      border: 2px solid #e50099;
+      border-radius: 30px;
+      padding: 12px 20px;
+      font-size: 16px;
+      background-color: transparent;
+    }
+
+    .form-label {
+      color: #e50099;
+      font-weight: 500;
+    }
+
+    .btn-login {
+      background-color: #e50099;
+      color: white;
+      border-radius: 30px;
+      font-size: 16px;
+      padding: 12px;
+      width: 100%;
+      border: none;
+    }
+    .btn-login:active {
+      background-color: #b8007a !important;
+      transform: scale(0.97);
+      color: white;
+      border: 3px #b8007a solid;
+    }
+    .btn-login:hover{
+        border: 3px #e50099 solid;
+    }
+
+    .forgot-password {
+      color: #b8007a;
+      font-size: 14px;
+      text-align: center;
+      margin-top: 15px;
+      display: block;
+      text-decoration: none;
+    }
+
+    .forgot-password:hover {
+      text-decoration: underline;
+    }
+
+    .top-bar {
+      padding: 20px 30px;
+    }

@@ -1,0 +1,96 @@
+body {/*CONTENIDO*/
+      background-color: #f0f0f0;/*Color principal de fondo*/
+      font-family: 'Segoe UI', sans-serif;/*Fuente que se utiliza en la pagina*/
+    }
+
+header .logo {/*LOGO*/
+  height: 90px;/*Altura del logo*/
+}
+
+.top-buttons .btn { /*BOTONES DE ENCABEZADO*/
+  border-radius: 20px;/*Borde redondeado*/
+  font-weight: 600;/*Tamaño de la fuente*/
+  margin-left: 5px;/*Margen izquierdo*/
+}
+
+.hero-section {/*SECCION PRINCIPAL*/
+  padding: 50px 20px 40px;/*Margenes interiores */
+}
+
+.hero-image img {/*IMAGEN PRINCIPAL*/
+  max-width: 100%;/*Ancho maximo de la imagen*/
+  border-radius: 50px;/*Borde redondeado*/
+  background-color: #3D3E41;/*Color de fondo*/
+}
+
+.cta-button {/*BOTON DE LA SECCION PRINCIPAL*/
+  border-radius: 30px;/*Borde redondeado*/
+  font-size: 18px;/*Tamaño de la fuente*/
+  padding: 12px 40px;/*Margenes interiores*/
+}
+
+/* Cuando el ancho de la pantalla es de 768px o menor*/
+@media (max-width: 768px) {
+
+  .hero-section { /*contenedor principal*/
+    padding-top: 60px;/*Margen superior*/
+    text-align: center;/*Centra horizontalmente*/
+  }
+
+  
+  header .top-buttons {/*BOTONES DE ENCABEZADO*/
+    justify-content: center;/*Centra horizontalmente*/
+    margin-top: 20px;/*Margen superior*/
+  }
+}
+
+
+.btn-outline-primary { /*BOTON CONTORNO COLOR PRINCIPAL*/
+  border: 3px solid #e50099;/*Borde de 3px color rosa*/
+  color: #e50099;/*Color del texto*/
+  border-radius: 20px;/*Borde redondeado*/
+  background-color: transparent;/*Fondo transparente*/
+  transition: all 0.1s ease-in-out;/*Transición suave al interactuar*/
+}
+
+.btn-outline-primary:hover { /*AL PASAR EL CURSOR*/
+  background-color: #e50099;/*Fondo rosa*/
+  color: white !important;/*Texto blanco*/
+  border-color: #e50099;/*Color del borde*/
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active { /*AL HACER CLIC O ESTAR ACTIVO*/
+  background-color: #b8007a !important;/*Fondo rosa oscuro*/
+  color: white !important;/*Texto blanco*/
+  border-color: #b8007a !important;/*Borde rosa oscuro*/
+  box-shadow: none !important;/*Sin sombra*/
+  transform: scale(0.97);/*Efecto de reducción al presionar*/
+}
+
+.btn-primary{ /*BOTON PRINCIPAL SOLIDO*/
+  background-color:#e50099; /*Fondo rosa*/
+  border:none;/*Sin borde*/
+  border-radius: 20px;/*Borde redondeado*/
+  transition: all 0.1s ease-in-out;/*Transición suave al interactuar*/
+}
+
+.btn-primary:hover{ /*AL PASAR EL CURSOR*/
+  background-color: #731657;/*Fondo rosa oscuro*/
+}
+
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active { /*AL HACER CLIC O ESTAR ACTIVO*/
+  background-color: #b8007a !important;/*Fondo rosa oscuro*/
+  color: white !important;/*Texto blanco*/
+  box-shadow: none !important;/*Sin sombra*/
+  transform: scale(0.97);/*Efecto de reducción al presionar*/
+}
+
+.cta-button { /*BOTON DE ACCION PRINCIPAL*/
+  background-color:#e50099;/*Fondo rosa*/
+  border:none;/*Sin borde*/
+  width: 100%;/*Ocupando todo el ancho disponible*/
+}
